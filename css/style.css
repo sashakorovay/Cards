@@ -1,0 +1,57 @@
+@import url('reset.css');
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background: rgb(201, 184, 184);
+  font-size: 0px;
+}
+
+.card {
+  display: inline-block;
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.wrapper > p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.image {
+  height: 200px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.link {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.card_box {
+  border: 1px solid black;
+  padding: 5px; 
+
+}
+
+.card_box > p {
+  overflow: hidden;
+  height: 50px;
+}
